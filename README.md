@@ -34,3 +34,5 @@ Piemērs, ievaddati 7231493, izvaddati 7496561.
 # 4.Uzdevums
 Uzrakstiet programmu, kas ievadītam naturālam skaitlim n nosaka, kādu mazāko naturālo skaitli var izveidot no skaitļa n cipariem, katru no tiem izmantojot vienu reizi. Jaunizveidotā skaitļa pieraksts nedrīkst sākties ar 0.<br>
 Piemērs, ievaddati 400000272700, izvaddati 200000002477 
+
+Labdien!
