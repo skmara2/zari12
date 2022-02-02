@@ -28,5 +28,34 @@ def virkne(x,y,n):
   return rez
 rezultats = virkne(a1,a2,elements)
 print(rezultats)
-"""
 
+
+
+3.uzd
+
+
+skaitlis = 7231493
+def funkcija(x):
+  li=[]
+  summa=0
+  strings=str(x)
+  for i in strings:
+    if int(i)<=0 or len(strings)>100:
+     return 0
+    else:
+      turp=True
+    
+
+
+  if turp==True:
+   for i in range(len(strings),0,-1):
+      d=skaitlis%10**i
+      li.append(d)
+      print(d)
+   for i in li:
+      summa+=i
+  return summa
+
+rez=funkcija(skaitlis)
+print(rez)
+"""
