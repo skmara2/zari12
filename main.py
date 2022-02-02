@@ -12,7 +12,7 @@ for i in range(n):
 skaitlis=7231493
 for i in range(7):
   if i==1:
-    virkne=skaitlis%1000000
+    virkne=skaitlis%1000000 #problēm aradīsies, ja skaitli nebūs tieši 7 cipari
     summa=skaitlis+virkne
   elif i==2:
     virkne=skaitlis%100000
