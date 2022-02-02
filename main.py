@@ -1,5 +1,3 @@
-n=int(input("Ievadi gala skaitli:"))
-a1=1
-a2=7
+sk=(input("Ievadi skaitli:"))
 import skaitli
-skaitli.virkne(a1,a2, n)
+skaitli.summa(sk,sk)

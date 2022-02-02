@@ -1,6 +1,8 @@
-def virkne(b,c,d):
- sar=[b,c]
- for i in range(2,d):
-   sk=(sar[i-1]+sar[i-2])%10
-   sar.append(sk)
- print(sar[-1])
+def summa(x,y):
+  x=int(x)
+  sar=[x]
+  len(y)=int(len(y))
+  for i in range(len(y)):
+    sar.append(x%(10**(len(y))))
+    len(y)-=1
+    print(sum(sar))
