@@ -19,7 +19,7 @@ a2=int(input("Ievadi 2.skaitli: "))
 elements=int(input("Ievadi n elementu: "))
 
 def virkne(x,y,n):
-  li=[a1,a2]
+  li=[x,y]
   for i in range(1,n-1):
     g=li[i-1]+li[i]
     h=g%10
